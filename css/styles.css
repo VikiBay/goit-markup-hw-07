@@ -1,5 +1,4 @@
-   
-:root {
+/* :root {
     --maintext-color:#212121;
     --secondtext-color:#757575;
     --accent-color:#2196F3;
@@ -12,8 +11,25 @@
     --typical-padding:94px;
     --transition-duration:250ms;
     --transition-function: cubic-bezier(0.4, 0, 0.2, 1);
-
+} */
+a {
+    text-decoration:none;
 }
+h1, h2, h3, h4, p, ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+textarea {
+    resize: none;
+}
+
 body{
     /* display: block; */
     font-family: Roboto, sans-serif;
@@ -23,23 +39,6 @@ body{
     background: var(--background-main-color);
     }
 
-    a {
-        text-decoration:none;
-    }
-    h1, h2, h3, h4, p, ul {
-        margin: 0;
-        padding-left: 0;
-    }
-
-    img{
-        display: block;
-        max-width: 100%;
-        height: auto;
-    }
-
-    textarea {
-        resize: none;
-    }
 
     .section {
     padding-bottom:var(--typical-padding);
@@ -366,10 +365,6 @@ margin-left: var(--typical-margin);
 margin-left: 10px;
 }
 
-.team-description{
-    /* margin-bottom: var(--typical-margin); */
-    }
-
 .team-desctiption-text{
     padding: 30px 32px;
 
@@ -612,9 +607,7 @@ margin-bottom: -30px;
         Font-size: 18px;
         Line-height: 1.56;
         color: var(--light-text-color);
-        /* Align: Left */
-        /* Vertical align: Top */
-        Letter spacing: 3%;
+        Letter spacing: 0.03;
     }
     
 .portfolio-overlay {
@@ -647,7 +640,7 @@ color:var(--secondtext-color);
 }
 
 .portfolio-description{
-    padding: ;
+    padding: 0;
     box-sizing: border-box;
     padding: 20px 24px;
     border-left: 1px solid #EEEEEE;
