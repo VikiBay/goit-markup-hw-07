@@ -204,8 +204,10 @@ color: var(--secondtext-color);
     left: 50%;
     transform: translate(-50%, -50%);
     transition: fill var(--transition-duration) var(--transition-function);
+
+    &:hover{
+        fill: var(--accent-color);
+    }
     }
 
-.modal-close-btn-img:hover{
-    fill: var(--accent-color);
-}
+

@@ -1,11 +1,10 @@
 .header {
     border-bottom: 1px solid #EEEEEE;
-    }
-            
-    .header .container{
+    .container{
         display: flex;
         align-items: center;
         }
+    }
     
     .header__nav-item:not(:last-child){
         margin-right: 50px;
@@ -35,15 +34,6 @@
         margin-right: 50px;
     }
     
-    .logo-web {
-        display: block;
-        font-family: 'Raleway';
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        color: var(--accent-color);
-        }
-        
     .header__logo-studio {
         color: var(--maintext-color);  
         margin-right: 93px;  
@@ -67,18 +57,16 @@
       letter-spacing: 0.02em;
       padding-top: 32px;
       padding-bottom: 32px;
-              }
+        &:hover, &:focus{
+            color: var(--accent-color);
+        }
     
-    .header__nav-link:hover, 
-    .header__contact-link:hover,
-    .header__nav-link:focus,
-    .header__contact-link:focus {
-        color: var(--accent-color);
+        &__active{
+            color:var(--accent-color);    
+        }
     }
+        
     
-    .header__nav-link__active{
-        color:var(--accent-color);    
-    }
     /* .header__nav-link.current{
     color:var(--accent-color);
     }
@@ -95,7 +83,9 @@
         font-weight: 500;
         padding-top: 32px;
         padding-bottom: 32px;
-        
+        &:hover, &:focus {
+            color: var(--accent-color);
+        }
         }
         
         .header__contact-icon{

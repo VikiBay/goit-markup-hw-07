@@ -15,6 +15,10 @@
     border-radius: 4px;
     color: #AFB1B8;
     justify-content: center;
+        &:hover{
+            color: var(--accent-color);
+            border: 1px solid var(--accent-color);
+        }
     }
     
     
@@ -24,7 +28,3 @@
     /* height: 40px; */
     }
     
-    .clients-link:hover{
-        color: var(--accent-color);
-        border: 1px solid var(--accent-color);
-    }

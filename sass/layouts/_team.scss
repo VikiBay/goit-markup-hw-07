@@ -49,7 +49,10 @@
     
     .team-socmed-item{
         background-color: var(--background-main-color);
-        
+        &:hover{
+            color: var(--light-text-color);
+            background-color: var(--accent-color);
+        }
     }
     
     .social-icon{
@@ -60,7 +63,3 @@
     .team-socmed-item:not(:first-child) {
     margin-left: 10px;}
     
-    .team-socmed-item:hover{
-        color: var(--light-text-color);
-        background-color: var(--accent-color);
-    }
